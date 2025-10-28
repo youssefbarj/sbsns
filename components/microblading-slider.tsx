@@ -79,7 +79,7 @@ export default function MicrobladingSlider() {
       <div className="w-full">
         <div className="text-center mb-4">
           <p className="text-black text-lg font-medium flex items-center justify-center gap-2">
-            Faites glisser vers la droite pour voir la transformation
+            Slide to the right to see the transformation
             <span className="inline-block animate-pulse">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" className="animate-bounce">
                 <path
@@ -108,14 +108,14 @@ export default function MicrobladingSlider() {
           <div className="absolute inset-0">
             <Image
               src="/images/lash-after.png"
-              alt="Après - Extensions volume"
+              alt="After - Volume Extensions"
               fill
               className="object-contain"
               priority
             />
             {/* Overlay text for after image */}
             <div className="absolute bottom-4 left-4 bg-black/70 text-white px-3 py-1 rounded-md text-sm font-medium">
-              Après - Extensions volume
+              After - Volume Extensions
             </div>
           </div>
 
@@ -126,10 +126,10 @@ export default function MicrobladingSlider() {
               clipPath: `polygon(${sliderPosition}% 0%, 100% 0%, 100% 100%, ${sliderPosition}% 100%)`,
             }}
           >
-            <Image src="/images/lash-before.png" alt="Avant - Cils naturels" fill className="object-contain" priority />
+            <Image src="/images/lash-before.png" alt="Before - Natural Lashes" fill className="object-contain" priority />
             {/* Overlay text for before image */}
             <div className="absolute bottom-4 right-4 bg-black/70 text-white px-3 py-1 rounded-md text-sm font-medium">
-              Avant - Cils naturels
+              Before - Natural Lashes
             </div>
           </div>
 
