@@ -1,18 +1,20 @@
-# Intro Slider — Lash Extensions (EN)
+# Lash Extensions — Slide 1
 
-**Course:** Lash Extensions (EN)  
-**Slide:** 1  
-**Live URL:** https://sbsns.edtechiecorp.com  
-**Stack:** Next.js · Tailwind CSS · TypeScript · GitHub Pages  
-
-## What this slide does
-
-Opening intro slider for the English-language lash extension course, presenting the course title, learning objectives, and visual examples of professional lash extension styles. This slide establishes the tone of the English curriculum and immediately engages learners by showcasing the level of skill they will achieve upon completion.
+**Course:** Lash Extensions
+**Slide:** 1
+**Live URL:** https://sbsns.edtechiecorp.com
+**Stack:** Next.js · Tailwind CSS · TypeScript · GitHub Pages
 
 ## Screenshot
 
-![sbsns](./screenshot.png)
+![sbsns](https://github.com/youssefbarj/sbsns/raw/main/screenshot.png)
+
+## What this slide does
+
+This is an interactive slide embedded as an iframe inside Coassemble. See the screenshot above for a visual preview of the content.
 
 ## Usage
 
-This slide is embedded as an iframe inside Coassemble at the live URL above. DNS is managed via Cloudflare (`edtechiecorp.com`). To update the slide, push to the `main` branch — GitHub Actions will rebuild and redeploy automatically.
+This slide is served via GitHub Pages at the live URL above. DNS is managed via Cloudflare (`edtechiecorp.com`). To update the slide, push to the `main` branch — GitHub Actions will rebuild and redeploy automatically.
+
+> **For E-Lumy's tech team:** After migrating this repo to your own GitHub account, re-enable GitHub Pages in Settings → Pages → Source: GitHub Actions. Then update the embed URL in Coassemble to your new deployment URL.
