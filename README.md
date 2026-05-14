@@ -7,7 +7,7 @@
 
 ## Screenshot
 
-![sbsns](https://github.com/youssefbarj/sbsns/raw/main/screenshot.png)
+![sbsns](https://raw.githubusercontent.com/youssefbarj/sbsns/main/screenshot.png)
 
 ## What this slide does
 
